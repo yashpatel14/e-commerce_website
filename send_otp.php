@@ -23,9 +23,9 @@ if($type=='email'){
 	$mail->Port=587;
 	$mail->SMTPSecure="tls";
 	$mail->SMTPAuth=true;
-	$mail->Username="patelshukan2000@gmail.com";
-	$mail->Password="8160229276";
-	$mail->SetFrom("patelshukan2000@gmail.com");
+	$mail->Username="your email";
+	$mail->Password="your mobile number";
+	$mail->SetFrom("your email");
 	$mail->addAddress($email);
 	$mail->IsHTML(true);
 	$mail->Subject="New OTP";
