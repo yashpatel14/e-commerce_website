@@ -70,8 +70,8 @@ if (isset($_POST['submit'])) {
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
         curl_setopt($ch, CURLOPT_FOLLOWLOCATION, TRUE);
         curl_setopt($ch, CURLOPT_HTTPHEADER,
-            array("X-Api-Key:test_38978092f9204ba1354d1456995",
-                  "X-Auth-Token:test_09e2cf13f57b09bd3f906a64b8a"));
+            array("X-Api-Key:your api key",
+                  "X-Auth-Token:your tokan"));
         $payload = Array(
     'purpose' => 'Buy Product',
     'amount' => $total_price,
